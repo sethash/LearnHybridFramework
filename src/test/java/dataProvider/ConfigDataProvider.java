@@ -15,6 +15,7 @@ public class ConfigDataProvider {
 		try {
 			FileInputStream fis = new FileInputStream(src);
 			pro = new Properties();
+			//test coment
 			pro.load(fis);
 		} catch (Exception e) {
 			
